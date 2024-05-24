@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags formulário</title>
+</head>
+<body>
+    <h1>Tags Formulário</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            Nome: <input type="text" id="txtnome" placeholder="Digite seu nome"><br><br>
+            Data de nascimento: <input type="date" name="tdatenascimento" id="tdatenascimento"><br><br>
+            Email: <input type="email" id="txtemail" placeholder="Digite aqui seu email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Usando checkbox</legend>
+            <h3>Coisas que eu gosto de fazer</h3>
+            <input type="checkbox"  name="op1" id="op1" value="Ler">Dormir
+            <input type="checkbox"  name="op2" id="op2" value="Dançar">Dançar
+            <input type="checkbox"  name="op3" id="op3" value="Cantar">Cantar
+        </fieldset>
+
+        <fieldset>
+            <legend>Usando tipo Radio</legend>
+            <h3>Prefiro:     </h3>
+                <input type="radio" name="comida" value="pizza">Pizza
+                <input type="radio" name="comida" value="Chocolate">Chocolate
+                <input type="radio" name="comida" value="Café">Café
+        </fieldset>
+   
+
+        <fieldset>
+            <legend>Usando tipo textarea</legend>
+            <h3>Fale sobre você</h3>
+            <textarea id="txtsobremim" cols="30" rows="10"> </textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Usando lista de seleção</legend>
+            <h3>Hoje é:</h3>
+            <select name="selector" id="selector">
+                <option value="Domingo">Domingo</option>
+                <option value="Segunda-feira">Segunda-feira</option>
+                <option value="Terça-feira">Terça-feira</option>
+            
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Enviando arquivo - type file</legend>
+            
+            <h3>Envie seu currículo</h3>
+            <input type="file" name="arquivo" id="arquivo"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Botões</legend>
+            <input type="button" value="Enviar">
+            <input type="submit" value="Enviar">
+            <button>Enviar</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
