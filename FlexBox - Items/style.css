@@ -1,0 +1,51 @@
+*{
+    margin: 0; /*Espaço fora da caixa*/
+    padding: 0;/*Espaço dentro da caixa*/
+    box-sizing: border-box; /*Contabilizando a borda*/
+}
+
+/*Seletores --> tag, id(#), class(.) */
+/*Unidades de medida --> px, %, em, rem*/
+/*cor --> nome em inglês, hexadecimal, rgb, hsl*/
+.container{
+    background-color: darkgray;
+    min-height: 100vh;/*Viewport height*/
+    display: flex; /*flexbox*/
+    flex-direction: row;/*direção do flex - row,column, row-reverse, column-reerse*/
+    column-gap: 20px;/*Distância entre as colunas dentro do flex*/
+    row-gap: 20px; /*Distância entre as linhas dentro do flex*/
+    flex-wrap: wrap;/*Quebra de linha dos itens (nowrap/ wrap) */
+    justify-content: center;/*Direção como linha - faz o alinhamento na horizontal. Direção como coluna - faz o alinhamento na vertical (center, start, end, space-between, space-around, space-evenly*/
+    align-items: flex-end;/*Se direção estiver como linha, o alinhamento é feito na vertical. Se a direção estiver como coluna, o alinhamento é feito na horizontal.- center, flex-start, flex-end, space-around, space-between*/
+
+}
+
+.item{
+    /* width: 200px; Largura */
+    /* height: 200px; Altura
+    border: 2px solid #000000;/*border: width style color*/
+
+    width: 200px;
+    height: 200px;
+    background-color: white;/*Cor de fundo*/
+    font-size: 20px;/*Tamanho da fonte*/
+    text-align: center;/*alinhamento de texto, center, left, right, justify*/
+    line-height: 200px;/*Altura da Linha*/
+   
+   
+    
+    
+}
+
+.item1{
+   
+}
+
+.item2{
+    
+}
+
+.item3{
+    
+}
+
